@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        .reset{
+            margin-top: 30px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audio-video.html" target="_blank">Audio</a></li>
+                <li><a href="form.html" target="_blank">Form</a></li>
+                <li><a href="Revised.html" target="_blank">Revision</a></li>
+                <li><a href="Practics.html" target="_blank">practics</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>Complete your Registration</h3>
+        <form>
+            <label for="name">Your Name: 
+                <input type="text" placeholder="Your Name">
+            </label>
+
+            <label for="Email">Your Email:
+                <input type="text" placeholder="Your Email">
+            </label>
+
+            <label for="Phone">Your Phone:
+                <input type="text" placeholder="Your Phone">
+            </label>
+
+            <fieldset>
+                <legend>Select Your country</legend>
+                <label for="Bangladesh">
+                    <input type="radio" name="country" id="Bangladesh">Bangladesh
+                </label>
+
+                <label for="India">
+                    <input type="radio" name="country" id="India">India
+                </label>
+
+                <label for="Pakistan">
+                    <input type="radio" name="country" id="Pakistan">Pakistan
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Select your Knowing Language</legend>
+                <label for="Language">
+                    <input type="checkbox" name="Language" id="Bangla">Bangla
+                </label>
+
+                <label for="Language">
+                    <input type="checkbox" name="Language" id="Hindi">Hindi
+                </label>
+
+                <label for="Language">
+                    <input type="checkbox" name="Language" id="Urdu">Urdu
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>About Your culture</legend>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </fieldset>
+            <input class="reset" type="reset" value="Reset">
+            <input type="submit" value="Submit">
+         </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
